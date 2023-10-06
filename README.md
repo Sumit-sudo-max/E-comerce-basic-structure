@@ -1,3 +1,20 @@
+Project Description
+This project aims to build a web-based expense tracker application using React.js for state management. The application allows users to add, edit, and delete expenses, categorize them, and view a summary of their spending.
+
+Key Features:
+React Components: Utilized React.js for building a modular and interactive user interface.
+Expense Management: Users can add, edit, and delete expenses, including details like description, amount, and category.
+Category Filtering: Implemented a feature to filter expenses by categories for easy organization.
+Expense Summary: Provided a summary section displaying the total expenses and categorized spending.
+Styling with CSS: Styled components with CSS for a clean and user-friendly interface.
+Responsive Design: Ensured compatibility with various screen sizes using media queries.
+How to Run:
+Clone the repository.
+Navigate to the project directory.
+Install dependencies using npm install.
+Start the development server with npm start.
+Access the application at http://localhost:3000.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
