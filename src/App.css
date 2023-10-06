@@ -1,0 +1,140 @@
+body, html{
+  margin:0;
+  padding:0;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0 5px 0;
+  background-color: rgb(73, 2, 73);
+  align-items: center; 
+}
+
+.nav{
+  display: flex; 
+  gap: 3rem;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* ProductListing.css */
+
+.product-listing {
+  padding: 70px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters label {
+  margin-right: 10px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  margin: 5px 0;
+}
+
+.product button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #0056b3;
+}
+.cart-count {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+}
+
+.cart-count {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+}
+
+.checkout {
+  max-width: 400px;
+  margin: 0 auto;
+  padding:60px; 
+  border: 1px solid #ccc;
+}
+
+.checkout h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em; 
+}
+
+.checkout form div {
+  margin-bottom: 5px;
+}
+
+.checkout form label {
+  font-weight: bold;
+  font-size: 1em; 
+}
+
+.checkout form input {
+  padding: 3px;
+  font-size: 1em; 
+}
+
+.checkout form button {
+  padding: 8px 16px;
+  font-size: 1em; 
+}
+
+.total-cost {
+  margin-top: 10px;
+}
+
+.total-cost h3 {
+  margin-bottom: 5px;
+  font-size: 1.2em; 
+}
+
+.total-cost p {
+  font-size: 1.5em; 
+  font-weight: bold;
+}
+
